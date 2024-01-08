@@ -1,0 +1,14 @@
+{
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "https://hotel-booking-kk5r.onrender.com",
+        "methods": ["GET", "POST", "PUT", "DELETE"]
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/$1"
+      }
+    ]
+  }
+  
